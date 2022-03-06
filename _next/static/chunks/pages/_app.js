@@ -1775,7 +1775,7 @@ function getClientBuildManifest() {
 function getFilesForRoute(assetPrefix, route) {
   if (true) {
     return Promise.resolve({
-      scripts: [assetPrefix + '/_next/static/chunks/pages' + encodeURI((0, _getAssetPathFromRoute["default"])(route, '.js'))],
+      scripts: [assetPrefix + '_next/static/chunks/pages' + encodeURI((0, _getAssetPathFromRoute["default"])(route, '.js'))],
       // Styles are handled by `style-loader` in development:
       css: []
     });
@@ -1787,7 +1787,7 @@ function getFilesForRoute(assetPrefix, route) {
     }
 
     var allFiles = manifest[route].map(function (entry) {
-      return assetPrefix + '/_next/' + encodeURI(entry);
+      return assetPrefix + '_next/' + encodeURI(entry);
     });
     return {
       scripts: allFiles.filter(function (v) {
