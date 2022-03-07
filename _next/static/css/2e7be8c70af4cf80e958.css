@@ -1,1 +1,80 @@
-body{margin:0;padding:5.5rem 0 0;background:#9a99ba;background:linear-gradient(90deg,#9a99ba,#e4eaff 25%,#dcdcf5 50%,#d6defb 75%,#a790bf);font-family:Arial}backup{background:#dad8f7;background:#4b4650}.content{padding:0 .8rem}.er_container{width:80%;margin:0 auto}.fixed-footer,.fixed-header{width:100%;position:fixed;background:#250039;background:linear-gradient(90deg,#250039,#6370c6 25%,#15002b);padding:.5rem 0;color:#fff;z-index:6}.fixed-header{top:0}.fixed-footer{bottom:0}.header{font-size:clamp(1.2rem,2.5vw,1.45rem);padding:0 0 .5rem}@media screen and (-webkit-min-device-pixel-ratio:0){.large-header{font-size:1.45rem}.medium-header{font-size:1.2rem}}.er_href{font-size:1rem;color:#fff;text-decoration:none;padding:0 1.5rem;display:inline-block}.gallery a img{width:300px;max-height:300px;border:2px solid #dad8f7;transition:transform .15s ease;position:relative}.gallery a:hover img{transform:scale(1.05);z-index:5}.gallery{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+body {
+    margin: 0;
+    padding: 5.5rem 0 0;
+    background: #9a99ba;
+    background: linear-gradient(90deg, #9a99ba, #e4eaff 25%, #dcdcf5 50%, #d6defb 75%, #a790bf);
+    font-family: Arial
+}
+
+backup {
+    background: #dad8f7;
+    background: #4b4650
+}
+
+.content {
+    padding: 0 .8rem
+}
+
+.er_container {
+    width: 80%;
+    margin: 0 auto
+}
+
+.fixed-footer, .fixed-header {
+    width: 100%;
+    position: fixed;
+    background: #250039;
+    background: linear-gradient(90deg, #250039, #6370c6 25%, #15002b);
+    padding: .5rem 0;
+    color: #fff;
+    z-index: 6
+}
+
+.fixed-header {
+    top: 0
+}
+
+.fixed-footer {
+    bottom: 0
+}
+
+.header {
+    font-size: clamp(1.2rem, 2.5vw, 1.45rem);
+    padding: 0 0 .5rem
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .large-header {
+        font-size: 1.45rem
+    }
+
+    .medium-header {
+        font-size: 1.2rem
+    }
+}
+
+.er_href {
+    font-size: 1rem;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 1.5rem;
+    display: inline-block
+}
+
+.gallery a img {
+    width: 300px;
+    max-height: 300px;
+    border: 2px solid #dad8f7;
+    transition: transform .15s ease;
+    position: relative
+}
+
+.gallery a:hover img {
+    transform: scale(1.05);
+    z-index: 5
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+}
